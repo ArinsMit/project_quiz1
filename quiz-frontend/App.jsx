@@ -28,6 +28,7 @@ function App() {
   return (
     <div className="app">
       <h1>Викторина для детей</h1>
+      <p>делаем сами</p>
       
       {selectedVariant ? (
         <ViewVariant 

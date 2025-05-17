@@ -9,7 +9,7 @@ function App() {
 
   // Загружаем варианты викторины при загрузке страницы
   useEffect(() => {
-    fetch('/api/variants')
+    fetch('/api/api/variants')
       .then(response => response.json())
       .then(data => {
         setVariants(data.variants);
